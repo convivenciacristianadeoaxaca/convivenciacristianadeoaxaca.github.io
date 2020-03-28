@@ -1,8 +1,4 @@
-@media (min-width: 768px) {
-  .container{
-      max-width: 600px;
-  }
-}
+
 
 #mainNav{
   background-color: #101923;
@@ -35,7 +31,7 @@ body {
 }
 
 .videoframe{
-  padding-bottom: 10px;
+  float: left
 }
 
 .logo2{
@@ -43,6 +39,37 @@ body {
     display: block;
     max-width:100%;
     height:auto;
+    float: left;
+}
+.logo3{
+  margin: auto;    
+    display: block;
+    max-width:100%;
+    height:auto;
+    margin-top: 20px;
+}
+.youtube-logo{
+  margin: auto;    
+    display: block;
+    max-width:100%;
+    height:auto;
+    float: right;
+}
+.logos{
+  margin: auto;    
+    display: block;
+    max-width:100%;
+    height:auto;
+    float: right;
+}
+
+
+
+.imagen-videoteca{
+  display: block;
+    width:100%;
+    height:auto;
+    float: left;
 }
 
 section #message{
@@ -55,8 +82,8 @@ section #message{
   max-width:100%;
   background-size: 100% 100%;
     height:auto;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .mensaje-pastoral-img{
@@ -100,19 +127,147 @@ br{
 }
 
 .container-avisos{
-  margin-top: -20px;
+  margin-top: -25px;
+  margin-bottom: 5px;
 }
 
 .avisos-col{
   background-color: #064590;
+  padding: 40px 30px 20px 40px;
 }
 
 .avisos-image{
   position: relative;
   top: 20px;
+  margin-left: 25px;
   z-index: 1;
 }
 
 .horario-col{
   background-color: #082349;
+}
+
+.footer-bg{
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.logo-footer{
+  float:left;
+}
+.address-footer{
+  padding-top: 10px;
+}
+
+.custom-line{
+  line-height: 100%;
+  margin: 0;
+}
+
+.custom-line-top{
+  margin-top: 10px;
+}
+
+.custom-line-bottom{
+  margin-bottom: 10px;
+}
+
+.custom-line-title{
+  font-weight: bold;
+}
+
+.custom-content-block{
+  padding: 20px 30px;
+}
+
+.custom-quote-block{
+  color: #41557c;
+  margin: 0px 30px 0px 30px;
+}
+
+blockquote p:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  font-style: italic;
+  vertical-align: -0.4em;
+}
+
+body .videos{
+  background-color: #ffffff;
+}
+
+horarios{
+  margin: auto;    
+  display: block;
+  max-width:100%;
+  height:auto;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .container{
+      max-width: 600px;
+  }
+}
+
+
+
+@media (min-width: 320px){
+  .masthead{
+    margin-top: 7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead{
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 1281px) {
+  
+  .container-avisos{
+    margin-top: -25px;
+    margin-bottom: 110px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .container-avisos{
+    margin-top: -25px;
+    margin-bottom: 110px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .container-avisos{
+    margin-top: -25px;
+    margin-bottom: 110px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+  .container-avisos{
+    margin-top: -25px;
+    margin-bottom: 180px;
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) { 
+  
+  .container-avisos{
+    margin-top: -25px;
+    margin-bottom: 180px;
+  }
 }
