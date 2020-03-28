@@ -1,0 +1,118 @@
+@media (min-width: 768px) {
+  .container{
+      max-width: 600px;
+  }
+}
+
+#mainNav{
+  background-color: #101923;
+}
+
+#mainNav .navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 1rem 1rem;
+}
+/* change the color of active or hovered links */
+#mainNav .nav-item.active .nav-link,
+#mainNav .nav-item:hover .nav-link {
+  color: #ffffff;
+  background-color: #294388; /* add background-color to active links */
+}
+
+body {
+  font-family: 'Baloo 2', cursive !important;
+  background-color: #4a5160;
+  padding-top: 80px;
+}
+
+.masthead{
+  background-color: #082349;
+}
+
+.container-mensaje{
+  background-color: #101923;
+  margin-top: 5px;
+}
+
+.videoframe{
+  padding-bottom: 10px;
+}
+
+.logo2{
+  margin: auto;    
+    display: block;
+    max-width:100%;
+    height:auto;
+}
+
+section #message{
+  background-color: #1e2a33;
+}
+
+.icono-convi-img{
+  margin: auto;    
+  display: block;
+  max-width:100%;
+  background-size: 100% 100%;
+    height:auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.mensaje-pastoral-img{
+  margin: auto;    
+  display: block;
+  width:100%;
+  background-size: 100% 100%;
+    height:auto;
+}
+
+.mensaje-pastoral-title{
+  color: #cccccc;
+  font-size:72px;
+  position: relative;
+  top:-96px;
+  line-height: 100%;
+}
+
+.director-title{
+  position: relative;
+  top:-96px;
+  color: #ffffff;
+  font-size:24px;
+  display: block;
+  margin: auto;
+}
+
+.director-subtitle{
+  position: relative;
+  top:-96px;
+  color: #ffffff;
+  font-size:12px;
+  display: block;
+  margin: auto;
+}
+
+br{
+  display: block;
+  content: ""; /* clears default height */
+  margin-top: 0;
+}
+
+.container-avisos{
+  margin-top: -20px;
+}
+
+.avisos-col{
+  background-color: #064590;
+}
+
+.avisos-image{
+  position: relative;
+  top: 20px;
+  z-index: 1;
+}
+
+.horario-col{
+  background-color: #082349;
+}
