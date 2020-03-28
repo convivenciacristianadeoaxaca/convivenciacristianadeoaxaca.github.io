@@ -19,6 +19,18 @@ body {
   font-family: 'Baloo 2', cursive !important;
   background-color: #4a5160;
   padding-top: 80px;
+  min-height: 100%;
+}
+
+.custom-main-content{
+  
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.custom-main-content:after {
+  content: "";
+  display: block;
 }
 
 .masthead{
@@ -128,7 +140,6 @@ br{
 
 .container-avisos{
   margin-top: -25px;
-  margin-bottom: 5px;
 }
 
 .avisos-col{
@@ -149,11 +160,13 @@ br{
 
 .footer-bg{
   background-color: #000;
-  position: fixed;
+  background: black;
+  position: relative;
   left: 0;
+  right: 0;
   bottom: 0;
-  width: 100%;
-  z-index: 1000;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .logo-footer{

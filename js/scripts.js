@@ -30,6 +30,14 @@
       target: '#mainNav',
       offset: 75
     });
+
+    function windowHeight() {
+      var wH = $(window).height();
+   
+      $('.custom-main-content').css({'min-height': wH});
+   }
+   
+   windowHeight();
   
     // Collapse Navbar
     // var navbarCollapse = function() {
@@ -45,4 +53,5 @@
     // $(window).scroll(navbarCollapse);
   
   })(jQuery); // End of use strict
+  
   
