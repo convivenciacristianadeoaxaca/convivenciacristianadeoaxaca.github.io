@@ -114,6 +114,10 @@ section #message{
   line-height: 100%;
 }
 
+.directores-div{
+  margin-bottom: -80px;
+}
+
 .director-title{
   position: relative;
   top:-96px;
