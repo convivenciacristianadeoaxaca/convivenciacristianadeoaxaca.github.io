@@ -230,12 +230,13 @@ body .videos{
       margin: 0; */
       height: 831px;
       width: 610px;
-      background-size: cover;
-      overflow: hidden;
+      background-size: contain;
+background-repeat: no-repeat;
+      
   }
   .modal-content {
       width: 610px;
-      height: 700px;
+      height: 900px;
       background-color: #082349 !important;
       margin: 0 auto;
   }
@@ -244,20 +245,20 @@ body .videos{
     background-color: #082349 !important;
 }
   
-  .modal-dialog {
+  /* .modal-dialog {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
-  }
+  } */
 
-  .modal-body{
+  /* .modal-body{
     height: 250px;
     overflow-y: auto;
-  }
+  } */
   
-  .custom-modal-size{
+  /* .custom-modal-size{
     margin: 0 auto;
-  }
+  } */
 
 horarios{
   margin: auto;    
@@ -317,6 +318,23 @@ horarios{
     margin-top: -25px;
     margin-bottom: 180px;
   }
+
+  .img-size{
+    /*  padding: 0;
+        margin: 0; */
+        height: 640px;
+        width: 470px;
+        background-size: contain;
+  background-repeat: no-repeat;
+        
+    }
+
+    .modal-content {
+      width: 470px;
+      height: 650px;
+      background-color: #082349 !important;
+      margin: 0 auto;
+  }
 }
 
 
@@ -326,5 +344,22 @@ horarios{
   .container-avisos{
     margin-top: -25px;
     margin-bottom: 180px;
+  }
+
+  .img-size{
+    /*  padding: 0;
+        margin: 0; */
+        height: 408px;
+        width: 300px;
+        background-size: contain;
+  background-repeat: no-repeat;
+        
+    }
+
+    .modal-content {
+      width: 300px;
+      height: 420px;
+      background-color: #082349 !important;
+      margin: 0 auto;
   }
 }
