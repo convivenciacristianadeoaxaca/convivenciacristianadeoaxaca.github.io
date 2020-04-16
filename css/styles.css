@@ -235,9 +235,9 @@ body .videos{
   }
   .modal-content {
       width: 610px;
-      height: 840px;
+      height: 700px;
       background-color: #082349 !important;
-      
+      margin: 0 auto;
   }
 
   .modal-backdrop {
@@ -255,6 +255,9 @@ body .videos{
     overflow-y: auto;
   }
   
+  .custom-modal-size{
+    margin: 0 auto;
+  }
 
 horarios{
   margin: auto;    
