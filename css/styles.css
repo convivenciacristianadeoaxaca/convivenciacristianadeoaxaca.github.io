@@ -220,48 +220,31 @@ body .videos{
   background-color: #ffffff;
 }
 
-/* .custom-modal-size
+.custom-modal-width
 {
-  width: 800px;
-} */
+  max-width: 100% !important;
+  width: 75% !important;
+}
+
 
 .img-size{
-  /*  padding: 0;
-      margin: 0; */
-      height: 831px;
-      width: 610px;
+      max-height: 100%;
+      max-width: 100%;
       background-size: contain;
 background-repeat: no-repeat;
-      
+content:url("/assets/images/esquelaescritorio.png");
   }
+
   .modal-content {
-      width: 640px;
-      height: 920px;
       background-color: #082349 !important;
       margin: 0 auto;
       justify-content: center;
   }
 
-  .modal-backdrop {
-    background-color: #082349 !important;
-}
   
-  /* .modal-dialog {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-  } */
-
-  /* .modal-body{
-    height: 250px;
-    overflow-y: auto;
-  } */
   
-  /* .custom-modal-size{
-    margin: 0 auto;
-  } */
 
-horarios{
+.horarios{
   margin: auto;    
   display: block;
   max-width:100%;
@@ -321,21 +304,20 @@ horarios{
   }
 
   .img-size{
-    /*  padding: 0;
-        margin: 0; */
-        height: 640px;
-        width: 470px;
+        max-width:100%;
+max-height:100%;
         background-size: contain;
   background-repeat: no-repeat;
+  content:url("/assets/images/esquelamovil.png");
         
     }
 
-    .modal-content {
-      width: 470px;
-      height: 650px;
-      background-color: #082349 !important;
-      margin: 0 auto;
-  }
+    .custom-modal-width
+{
+  max-width: 100% !important;
+  width: auto !important;
+}
+
 }
 
 
@@ -348,21 +330,20 @@ horarios{
   }
 
   .img-size{
-    /*  padding: 0;
-        margin: 0; */
-        height: 408px;
-        width: 300px;
+        max-width:100%;
+        max-height:100%;
         background-size: contain;
   background-repeat: no-repeat;
-        
+  content:url("/assets/images/esquelamovil.png");
     }
 
-    .modal-content {
-      width: 340px;
-      height: 500px;
-      background-color: #082349 !important;
-      margin: 0 auto;
-  }
+    .custom-modal-width
+    {
+      max-width: 100% !important;
+      width: auto !important;
+    }
+
+    
 }
 
 @media (max-width: 320px) { 
@@ -373,19 +354,19 @@ horarios{
   }
 
   .img-size{
-    /*  padding: 0;
-        margin: 0; */
-        height: 272px;
-        width: 200px;
+   
+    max-width:100%;
+    max-height:100%;
         background-size: contain;
   background-repeat: no-repeat;
-        
+  content:url("/assets/images/esquelamovil.png");
     }
 
-    .modal-content {
-      width: 230px;
-      height: 340px;
-      background-color: #082349 !important;
-      margin: 0 auto;
-  }
+    .custom-modal-width
+    {
+      max-width: 100% !important;
+      width: auto !important;
+    }
+
+    
 }
