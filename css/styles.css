@@ -220,27 +220,6 @@ body .videos{
   background-color: #ffffff;
 }
 
-.custom-modal-width
-{
-  max-width: 100% !important;
-  width: 75% !important;
-}
-
-
-.img-size{
-      max-height: 100%;
-      max-width: 100%;
-      background-size: contain;
-background-repeat: no-repeat;
-content:url("/assets/images/esquelaescritorio.png");
-  }
-
-  .modal-content {
-      background-color: #082349 !important;
-      margin: 0 auto;
-      justify-content: center;
-  }
-
   
   
 
@@ -312,12 +291,6 @@ max-height:100%;
         
     }
 
-    .custom-modal-width
-{
-  max-width: 100% !important;
-  width: auto !important;
-}
-
 }
 
 
@@ -329,20 +302,7 @@ max-height:100%;
     margin-bottom: 180px;
   }
 
-  .img-size{
-        max-width:100%;
-        max-height:100%;
-        background-size: contain;
-  background-repeat: no-repeat;
-  content:url("/assets/images/esquelamovil.png");
-    }
-
-    .custom-modal-width
-    {
-      max-width: 100% !important;
-      width: auto !important;
-    }
-
+  
     
 }
 
@@ -351,22 +311,5 @@ max-height:100%;
   .container-avisos{
     margin-top: -25px;
     margin-bottom: 180px;
-  }
-
-  .img-size{
-   
-    max-width:100%;
-    max-height:100%;
-        background-size: contain;
-  background-repeat: no-repeat;
-  content:url("/assets/images/esquelamovil.png");
-    }
-
-    .custom-modal-width
-    {
-      max-width: 100% !important;
-      width: auto !important;
-    }
-
-    
+  } 
 }
