@@ -1,3 +1,32 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+convivenciacristianadeoaxaca
+/
+convivenciacristianadeoaxaca.github.io
+100
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Security 0
+ Insights
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+
+convivenciacristianadeoaxaca.github.io/css/styles.css
+@convivenciacristianadeoaxaca convivenciacristianadeoaxaca Fixed bug for pop up
+c37bd4c on Apr 17
+372 lines (296 sloc)  5.3 KB
+  
 
 
 #mainNav{
@@ -220,6 +249,30 @@ body .videos{
   background-color: #ffffff;
 }
 
+.custom-modal-width
+{
+  max-width: 100% !important;
+  width: 75% !important;
+}
+
+
+.img-size{
+      display:block;
+      max-height: 100%;
+      max-width: 100%;
+      background-size: contain;
+background-repeat: no-repeat;
+content:url("/assets/images/imagen_ayuno.jpg");
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .modal-content {
+      background-color: #d7c9bc !important;
+      margin: 0 auto;
+      justify-content: center;
+  }
+
   
   
 
@@ -287,9 +340,15 @@ body .videos{
 max-height:100%;
         background-size: contain;
   background-repeat: no-repeat;
-  content:url("/assets/images/esquelamovil.png");
+  content:url("/assets/images/imagen_ayuno.jpg");
         
     }
+
+    .custom-modal-width
+{
+  max-width: 100% !important;
+  width: auto !important;
+}
 
 }
 
@@ -302,7 +361,20 @@ max-height:100%;
     margin-bottom: 180px;
   }
 
-  
+  .img-size{
+        max-width:100%;
+        max-height:100%;
+        background-size: contain;
+  background-repeat: no-repeat;
+  content:url("/assets/images/imagen_ayuno.jpg");
+    }
+
+    .custom-modal-width
+    {
+      max-width: 100% !important;
+      width: auto !important;
+    }
+
     
 }
 
@@ -311,5 +383,22 @@ max-height:100%;
   .container-avisos{
     margin-top: -25px;
     margin-bottom: 180px;
-  } 
+  }
+
+  .img-size{
+   
+    max-width:100%;
+    max-height:100%;
+        background-size: contain;
+  background-repeat: no-repeat;
+  content:url("/assets/images/imagen_ayuno.jpg");
+    }
+
+    .custom-modal-width
+    {
+      max-width: 100% !important;
+      width: auto !important;
+    }
+
+    
 }
